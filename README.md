@@ -11,5 +11,5 @@ spark-submit --class com.chai.datascience.recommender.RunRecommender --master ya
 
 This should launch the application!
 
-Check the screenshots folder for example screenshots.
+Check the screenshots folder to check out some of the artists trending in 2005.
 
