@@ -10,3 +10,6 @@ cd into the project directory ch03-recommender-chaiedit and type the command 'mv
 spark-submit --class com.chai.datascience.recommender.RunRecommender --master yarn --deploy-mode client --driver-memory 4g ch03-recommender-chaiedit-2.0.0-jar-with-dependencies.jar 
 
 This should launch the application!
+
+Check the screenshots folder for example screenshots.
+
