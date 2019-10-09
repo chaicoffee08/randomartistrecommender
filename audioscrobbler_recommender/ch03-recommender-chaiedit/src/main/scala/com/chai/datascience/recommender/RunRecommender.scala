@@ -16,7 +16,7 @@ object RunRecommender {
 		
 		
 		spark.sparkContext.setLogLevel("ERROR")
-		val base = "hdfs:///user/ds/"
+		val base = "hdfs:///user/root/"
 		val rawUserArtistData = spark.read.textFile(base + "user_artist_data.txt")
 		val rawArtistData = spark.read.textFile(base + "artist_data.txt")
 		val rawArtistAlias = spark.read.textFile(base + "artist_alias.txt")
